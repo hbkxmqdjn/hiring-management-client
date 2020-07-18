@@ -1,11 +1,11 @@
-import {combinedReducers} from 'redux'
+import {combineReducers} from 'redux'
 function xxx(state = 0,action){
     return state;
 }
 function yyy(state = 0,action){
     return state;
 }
-export default combinedReducers({
+export default combineReducers({
     xxx,
     yyy
 })
